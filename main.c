@@ -4,17 +4,17 @@
 
 
 
- struct student
+ typedef struct
 {
 	int id;
 	char *firstName;
 	char *lastName;
 	float gpa;
 
-} ;
+} Student;
 
 
-void displayStudentInformation(struct student stu)
+void displayStudentInformation(Student stu)
 {
 	printf("Student information is :\n\r");
 	printf("                    id : %d \n\r", stu.id);
@@ -24,7 +24,7 @@ void displayStudentInformation(struct student stu)
   printf("---------------------------------------\n\r");
 }
 
-void displayStudentInformation2(struct student *pstu)
+void displayStudentInformation2(Student *pstu)
 {
 	printf("Student information is :\n\r");
 	printf("                    id : %d \n\r", pstu->id);
@@ -38,12 +38,13 @@ void displayStudentInformation2(struct student *pstu)
 int main()
 {
 	SER_Init();
-	struct student stu1;
+	Student stu1;
 	stu1.firstName = "ALI";
 	stu1.lastName = "ALAVI";
 	stu1.id = 101;
 	stu1.gpa = 18;
-	struct student stu2 = { 102,"REZA","RAZAVI",18 };
+	Student stu2 = { 102,"REZA","RAZAVI",18 };
+	Student stu3;
 
 	displayStudentInformation(stu1);
     displayStudentInformation(stu2);
