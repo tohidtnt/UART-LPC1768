@@ -8,6 +8,22 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E511
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E511A)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E511A)
 I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58491C6A)
+F (.\Retarget.c)(0x5B6453D8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BC28C)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x588BC28C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BC28C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC28C)
+I (Serial.h)(0x5B6C97B5)
+F (.\Serial.c)(0x5B6D8454)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.H)(0x58491C6A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E511A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC28C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A55C71A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E511A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E511A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E511A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58491C6A)
+I (Serial.h)(0x5B6C97B5)
 F (RTE\Device\LPC1768\RTE_Device.h)(0x571DCA04)()
 F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x58491C6A)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
 F (RTE\Device\LPC1768\system_LPC17xx.c)(0x58491C6A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)

@@ -1,5 +1,7 @@
 --cpu Cortex-M3
 ".\objects\main.o"
+".\objects\retarget.o"
+".\objects\serial.o"
 ".\objects\startup_lpc17xx.o"
 ".\objects\system_lpc17xx.o"
 --strict --scatter ".\Objects\LPC1768-UART.sct"
